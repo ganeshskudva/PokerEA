@@ -368,15 +368,15 @@ public class Hands {
 
 
     public void calculateWinner(Deck gameDeck){
-        Player winner = null;
-        evaluateCards(gameDeck);
-        winner = this.whoWillWin(player1, player2);
-
         //show all hands
         System.out.println("\nPlayer1 players cards:");
         this.player1.showCards();
         System.out.println("\nPlayer2 players cards:");
         this.player2.showCards();
+
+        Player winner = null;
+        evaluateCards(gameDeck);
+        winner = this.whoWillWin(player1, player2);
 
         System.out.println("\n-----------------------------------\n");
         System.out.println("Winner is: ");
@@ -410,7 +410,7 @@ public class Hands {
     }//end who will win
 
     private void evaluateCards(Deck gameDeck) {
-        System.out.println("Player1 has: ");
+        System.out.println("\nPlayer1 has: ");
         player1.setHandScore(this.evaluateHand(player1));
 
         System.out.println("Player2 has: ");
