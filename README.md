@@ -23,16 +23,16 @@ The deck is being shuffled...
 
 The cards are being dealt to 2 players <<-- There are 2 players in the game Player1 & Player2
 
-Player1 has: 
-One Pair or Two of a Kind on 1st 2 cards <<-- Shows best possible case in the current set of cards received by player1
-Player2 has: 
-high card <<-- Shows best possible case in the current set of cards received by player2
-
 Player1 players cards:
 Ace of DIAMONDS, Ace of HEARTS, Queen of CLUBS, 9 of DIAMONDS, 7 of HEARTS <<-- Displays all the cards held by payer1 currently
 
 Player2 players cards:
 King of CLUBS, 9 of HEARTS, 7 of DIAMONDS, 5 of CLUBS, 2 of SPADE <<-- Displays all the cards held by payer2 currently
+
+Player1 has: 
+One Pair or Two of a Kind on 1st 2 cards <<-- Shows best possible case in the current set of cards received by player1
+Player2 has: 
+high card <<-- Shows best possible case in the current set of cards received by player2
 
 -----------------------------------
 
